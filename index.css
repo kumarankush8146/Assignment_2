@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.link > a{
+  color: black;
+  font-size: 1.5em;
+  border: 2px solid white; 
+  background-color: #ff4d4d;
+  padding: 6px; 
+  text-decoration: none;
+  float: right;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  clear: both;
+}
+.link > a:hover{
+  background-color: #e60000;
+  color: white;
+
+}
+body{
+  background-color: #f6b319;
+}
+
+#header-nav{
+  background-color: maroon;
+  border: 0;
+  border-radius: 0;
+  padding: 10px;
+}
+
+.navbar-brand h2{
+  font-size: 1.8em;
+  color: white;
+  margin-top: 0;
+  line-height: .75;
+
+}
+
+#nav-list{
+/*  margin: 10px;
+ */ font-size: 1.5em;
+  color: white;
+  
+}
+
+#nav-list a{
+  color: #f6b319;
+  text-align: center;
+}
+#nav-list a:hover{
+  background: white;
+  color: black;
+}
+#nav-list a  {
+  font-size: 1.2em;
+}
+
+
+
+
+h1 {
+  text-align: center;
+  margin: 30px;
+  font-family: 'Balsamiq Sans', cursive;
+}
+.container {
+  width: 100%;
+}
+.inner-title{
+  float: right;
+  border: 1px solid white;
+  padding: 5px;
+  margin: 0;
+  font-size: 24px;
+}
+#Chicken{
+  background-color: pink;
+}
+#Beef{
+  background-color: aqua; 
+}
+#Sushi{
+  background-color: khaki;
+}
+.section{
+    background-color: lightgray;
+    border: 3px solid black;
+    margin: 10px;
+    margin: auto;
+    width: 90%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+ .para{
+  clear: both;
+  padding: 30px;
+  margin-bottom: 10px;
+ } 
+
+ .navbar-header button.navbar-toggle, .navbar-header .icon-bar{
+  border: 1px solid white; 
+ }
+ .navbar-header button.navbar-toggle{
+    clear: both;
+    margin-top: -40px;
+ }
+/*@media(min-width: 992px){
+  .col{
+    float: left;
+    width: 100%;
+  } 
+  .col-md-1{
+    padding: 0;
+  }
+
+}
+@media(min-width: 768px) and (max-width: 991px){
+  .col-md{
+    float: left;
+    width: 100%;
+   margin-bottom: 20px;
+  } 
+  .col-md-1{
+    float: left;
+    width: 100%;
+    padding: 0;
+   
+  }
+  
+@media(max-width: 767px){
+ .col-md-1{
+  padding-left: 0;
+  padding-right: 0;
+}
+}*/
